@@ -8,5 +8,6 @@ My junior Devs are :
 Gelsey Helms - Animated
 John Wendt - Live-Action
 
-
+heading font: font-family: ethnocentric, sans-serif;
+paragrph: font-family: Arial, Helvetica, sans-serif;
 
