@@ -1,3 +1,14 @@
+/* Removes the scroll bar */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+body {
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
+}
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
 body{
   font-family: 'Open Sans', Arial, sans-serif;
   background-color:#ffffff;
@@ -96,8 +107,8 @@ header nav ul a:hover::after {
 }
 
 #logo{
-  height: 10%;
-  width: auto;
+  width:15%;
+  aspect-ratio: 3 / 1;
   position: absolute;
   top: 3%; 
   left: 3%; 
