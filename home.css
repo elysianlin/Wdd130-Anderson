@@ -87,7 +87,6 @@ header nav ul a::after {
 header nav ul a:hover::after {
     width: 100%;
 }
-
 .hero_center {
   width:100%;
   margin-left: calc(50% - 50vw);
@@ -99,13 +98,11 @@ header nav ul a:hover::after {
   text-shadow:2px 2px 5px #000;
   position:relative;
 }
-
 .hero_banner_image {
   width: 100%; 
   height: auto; 
   display: block; 
 }
-
 #logo{
   width:15%;
   aspect-ratio: 3 / 1;
