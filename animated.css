@@ -1,3 +1,30 @@
+/* Removes the scroll bar */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+body {
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
+}
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+body{
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color:#ffffff;
+  color:#000000;
+  margin: 0; 
+  padding-top: 54px;
+  padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Ethnocentric', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000; 
+}
+
 header{
   width:100%;
   background-color: #ffffff;
